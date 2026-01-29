@@ -48,6 +48,7 @@ Four projects spanning the tech product analytics lifecycle: activation, engagem
 **Tech Stack:** BigQuery (392M records), Python (pandas, numpy, matplotlib, statsmodels, sklearn), Looker Studio
 **Methods:** Retention curves, cohort analysis, churn segmentation, behavioral segmentation, feature engineering, predictive modeling (logistic regression, AUC, precision/recall, feature importance)
 **Behavioral Analysis:** TBA
+
 ---
 
 ### [Reddit Network Analytics](https://github.com/rahulknagendra/Reddit_Network_Analytics)
