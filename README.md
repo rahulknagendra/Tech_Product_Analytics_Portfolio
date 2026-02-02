@@ -77,6 +77,7 @@ Three projects spanning the tech product analytics lifecycle: activation, engage
 - **A/B Testing:** Experiment design, power analysis, balance checks, statistical significance
 - **Python:** pandas, numpy, matplotlib, statsmodels for analysis and visualization
 - **Research Methods:** Effect sizes with confidence intervals, sensitivity testing, limitation acknowledgment
+- **Dashboards:** Looker Studio interactive dashboards with cross-filtering
 
 ---
 
