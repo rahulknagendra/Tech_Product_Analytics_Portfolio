@@ -8,7 +8,7 @@ Recent UCLA graduate with a computational sociology background as well as D1 ten
 
 ## Overview
 
-Three projects spanning the tech product analytics lifecycle: activation, engagement, and retention. Each project demonstrates behavioral analysis: understanding not just *what* users do, but *how* and *why* behavior unfolds the way it does.
+Three projects spanning the tech product analytics lifecycle: activation, engagement, and retention. Additionally, a specialized network analysis project leveraging my computational sociology background. Each project demonstrates behavioral analysis: understanding not just *what* users do, but *how* and *why* behavior unfolds the way it does.
 
 ## Projects
 
@@ -62,6 +62,22 @@ Three projects spanning the tech product analytics lifecycle: activation, engage
 
 ---
 
+### [Reddit Network Analytics](https://github.com/rahulknagendra/Reddit_Network_Analytics)
+**Domain:** Social Media · Network Science
+**Question:** Does network position predict how content spreads?
+
+**Topic** TBA
+
+**Finding** TBA
+
+**Tech Stack:** BigQuery (recursive CTEs), Python (pandas, numpy, matplotlib, networkx, networkit), Looker Studio
+
+**Methods:** Network analysis (graph construction, centrality measures, betweenness), community detection (Louvain), sentiment analysis, cascade extraction, bridge user identification
+
+**Behavioral Analysis:** TBA
+
+---
+
 ## Analytical Approach
 
 **Behavioral analysis throughout.** Each project goes beyond standard metrics to examine *how* behavior unfolds: activation sequences, engagement patterns, disengagement pathways. This framing, informed by my sociology background, asks why users behave differently, not just whether they do.
@@ -72,7 +88,7 @@ Three projects spanning the tech product analytics lifecycle: activation, engage
 
 ## Technical Skills
 
-- **SQL:** Complex queries, CTEs, window functions, BigQuery (300M+ row tables)
+- **SQL:** Complex queries, CTEs, window functions, recursive queries, BigQuery (300M+ row tables)
 - **Product Metrics:** Funnel conversion, DAU/WAU/MAU, retention curves, cohort analysis, churn segmentation
 - **A/B Testing:** Experiment design, power analysis, balance checks, statistical significance
 - **Python:** pandas, numpy, matplotlib, statsmodels for analysis and visualization
