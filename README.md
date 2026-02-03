@@ -1,6 +1,6 @@
 # Tech Product Analytics Portfolio
 
-Rahul Nagendra | [rahulknagendra@gmail.com](mailto:rahulknagendra@gmail.com) | [LinkedIn](https://www.linkedin.com/in/rahul-k-nagendra) | [GitHub](https://github.com/rahulknagendra)
+Rahul Nagendra | [rahulknagendra@gmail.com](mailto:rahulknagendra@gmail.com) | [LinkedIn](https://www.linkedin.com/in/rahul-k-nagendra) | [GitHub](https://github.com/rahulknagendra) | [Resume](https://docs.google.com/document/d/1YlK8RBchv9kNl6wKHJyussihSykrQk_NUuCARAT2cOM/edit?usp=drive_link)
 
 ## About Me
 
