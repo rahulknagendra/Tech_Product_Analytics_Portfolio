@@ -48,6 +48,7 @@ Three projects spanning the tech product analytics lifecycle: activation, engage
 
 ### [KKBox Retention Analytics](https://github.com/rahulknagendra/KKBox-Retention-Analytics)
 **Domain:** Music Streaming · Subscription Retention
+
 **Question:** What predicts subscription churn?
 
 **Topic** TBA
@@ -64,6 +65,7 @@ Three projects spanning the tech product analytics lifecycle: activation, engage
 
 ### [Reddit Network Analytics](https://github.com/rahulknagendra/Reddit_Network_Analytics)
 **Domain:** Social Media · Network Science
+
 **Question:** Does network position predict how content spreads?
 
 **Topic** TBA
