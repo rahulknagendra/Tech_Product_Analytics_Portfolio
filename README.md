@@ -8,7 +8,7 @@ Recent UCLA graduate with a computational sociology background as well as D1 ten
 
 ## Overview
 
-Three projects spanning the tech product analytics lifecycle: activation, engagement, and retention. Additionally, a specialized network analysis project leveraging my computational sociology background. Each project demonstrates behavioral analysis: understanding not just *what* users do, but *how* and *why* behavior unfolds the way it does.
+Three projects spanning the product analytics lifecycle (activation, engagement, retention) and a network analysis project examining virality in social platforms. Each demonstrates behavioral analysis informed by my computational sociology background: understanding not just *what* users do, but *how* and *why* behavior unfolds.
 
 ## Projects
 
@@ -51,15 +51,15 @@ Three projects spanning the tech product analytics lifecycle: activation, engage
 
 **Question:** What predicts subscription churn?
 
-**Topic** TBA
+**Topic** Analyzed subscription retention across 970K users through cohort retention curves and churn segmentation, then built a predictive model to identify at-risk subscribers and characterized three distinct disengagement pathways in listening behavior (392M records).
 
-**Finding** TBA
+**Finding** Auto-renewal users churn at 3.8% vs 30.5% for manual renewal, an 8x difference. The predictive model (AUC=0.925) reveals three disengagement pathways: volume-led (listening hours drop first), completion-led (song finish rate drops first), and exploration-led (new music discovery drops first). Same outcome, different behavioral signatures.
 
 **Tech Stack:** BigQuery (392M records), Python (pandas, numpy, matplotlib, statsmodels, sklearn), Looker Studio
 
 **Methods:** Retention curves, cohort analysis, churn segmentation, behavioral segmentation, feature engineering, predictive modeling (logistic regression, AUC, precision/recall, feature importance)
 
-**Behavioral Analysis:** TBA
+**Behavioral Analysis:** Disengagement is not monolithic. A user whose listening hours drop while song completion stays high differs from one whose completion drops while hours stay constant. The first pattern suggests reduced time; the second suggests waning interest. Same churn risk, different underlying causes, different intervention implications.
 
 ---
 
