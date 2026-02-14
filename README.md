@@ -64,9 +64,9 @@ Three projects spanning the product analytics lifecycle (activation, engagement,
 ---
 
 ### [Reddit Network Analytics](https://github.com/rahulknagendra/Reddit_Network_Analytics)
-**Domain:** Social Media · Network Science
+**Domain:** Social Media · Network Virality
 
-**Question:** Does network position predict how content spreads?
+**Question:** What predicts how viral content spreads?
 
 **Topic:** Analyzed whether viral discussion growth is driven by who participates or what they say by modeling Reddit conversations as networks (302K comments, 9 subreddits) in the 4 months after ChatGPT’s launch. Measured users’ structural positions (e.g., community bridges), classified comment emotion at scale, and compared which better predicts discussion cascade size.
 
