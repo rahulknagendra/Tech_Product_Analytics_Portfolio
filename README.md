@@ -17,9 +17,9 @@ Three projects spanning the product analytics lifecycle (activation, engagement,
 
 **Question:** What predicts whether new users reach the activation milestone?
 
-**Topic** Tracked 4,319 new installs through an activation funnel using conversion metrics and cohort segmentation in BigQuery to identify what distinguishes users who activate from those who don't (5.7M events).
+**Topic:** Tracked 4,319 new installs through an activation funnel using conversion metrics and cohort segmentation in BigQuery to identify what distinguishes users who activate from those who don't (5.7M events).
 
-**Finding** First-game winners who continue playing activate at 42% vs 20% for first-game losers who continue. The same action (continuing to play) converts at 2x the rate depending on context. 67% of activation happens within the first hour—the first session is the critical window.
+**Finding:** First-game winners who continue playing activate at 42% vs 20% for first-game losers who continue. The same action (continuing to play) converts at 2x the rate depending on context. 67% of activation happens within the first hour—the first session is the critical window.
 
 **Tech Stack:** BigQuery, Python (pandas, numpy, matplotlib), Looker Studio
 
@@ -34,9 +34,9 @@ Three projects spanning the product analytics lifecycle (activation, engagement,
 
 **Question:** What predicts how activated users engage?
 
-**Topic** Measured engagement through consistency and frequency using DAU/WAU/MAU and stickiness ratios with cohort retention analysis, plus A/B test methodology with power analysis and balance checks on API-collected data (282K commits).
+**Topic:** Measured engagement through consistency and frequency using DAU/WAU/MAU and stickiness ratios with cohort retention analysis, plus A/B test methodology with power analysis and balance checks on API-collected data (282K commits).
 
-**Finding** Users who follow more than they're followed ("Consumers") are 1.93x more likely to show high engagement than users with more followers ("Producers"). Social consumption correlates with engagement more than social visibility does. The analysis separates engagement into consistency (showing up) and frequency (intensity when present).
+**Finding:** Users who follow more than they're followed ("Consumers") are 1.93x more likely to show high engagement than users with more followers ("Producers"). Social consumption correlates with engagement more than social visibility does. The analysis separates engagement into consistency (showing up) and frequency (intensity when present).
 
 **Tech Stack:** GitHub REST API, BigQuery, Python (pandas, numpy, matplotlib, scipy), Looker Studio
 
@@ -51,9 +51,9 @@ Three projects spanning the product analytics lifecycle (activation, engagement,
 
 **Question:** What predicts subscription churn?
 
-**Topic** Analyzed subscription retention across 970K users through cohort retention curves and churn segmentation, then built a predictive model to identify at-risk subscribers and characterized three distinct disengagement pathways in listening behavior (392M records).
+**Topic:** Analyzed subscription retention across 970K users through cohort retention curves and churn segmentation, then built a predictive model to identify at-risk subscribers and characterized three distinct disengagement pathways in listening behavior (392M records).
 
-**Finding** Auto-renewal users churn at 3.8% vs 30.5% for manual renewal, an 8x difference. The predictive model (AUC=0.925) reveals three disengagement pathways: volume-led (listening hours drop first), completion-led (song finish rate drops first), and exploration-led (new music discovery drops first). Same outcome, different behavioral signatures.
+**Finding:** Auto-renewal users churn at 3.8% vs 30.5% for manual renewal, an 8x difference. The predictive model (AUC=0.925) reveals three disengagement pathways: volume-led (listening hours drop first), completion-led (song finish rate drops first), and exploration-led (new music discovery drops first). Same outcome, different behavioral signatures.
 
 **Tech Stack:** BigQuery (392M records), Python (pandas, numpy, matplotlib, statsmodels, sklearn), Looker Studio
 
@@ -68,9 +68,9 @@ Three projects spanning the product analytics lifecycle (activation, engagement,
 
 **Question:** Does network position predict how content spreads?
 
-**Topic** Analyzed whether viral discussion growth is driven by who participates or what they say by modeling Reddit conversations as networks (302K comments, 9 subreddits) in the 4 months after ChatGPT’s launch. Measured users’ structural positions (e.g., community bridges), classified comment emotion at scale, and compared which better predicts discussion cascade size.
+**Topic:** Analyzed whether viral discussion growth is driven by who participates or what they say by modeling Reddit conversations as networks (302K comments, 9 subreddits) in the 4 months after ChatGPT’s launch. Measured users’ structural positions (e.g., community bridges), classified comment emotion at scale, and compared which better predicts discussion cascade size.
 
-**Finding** Users bridging multiple communities seed discussions that grow 50% larger on average, while comment emotion shows no relationship with cascade size. Network position predicts spread; emotional content does not. These bridge users also communicate with more emotional moderation across all dimensions.
+**Finding:** Users bridging multiple communities seed discussions that grow 50% larger on average, while comment emotion shows no relationship with cascade size. Network position predicts spread; emotional content does not. These bridge users also communicate with more emotional moderation across all dimensions.
 
 **Tech Stack:** BigQuery (recursive CTEs), Python (pandas, numpy, matplotlib, networkx, networkit, transformers), Looker Studio
 
