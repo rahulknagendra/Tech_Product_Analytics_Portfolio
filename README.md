@@ -68,15 +68,15 @@ Three projects spanning the product analytics lifecycle (activation, engagement,
 
 **Question:** Does network position predict how content spreads?
 
-**Topic** TBA
+**Topic** Analyzed whether viral discussion growth is driven by who participates or what they say by modeling Reddit conversations as networks (302K comments, 9 subreddits) in the 4 months after ChatGPT’s launch. Measured users’ structural positions (e.g., community bridges), classified comment emotion at scale, and compared which better predicts discussion cascade size.
 
-**Finding** TBA
+**Finding** Users bridging multiple communities seed discussions that grow 50% larger on average, while comment emotion shows no relationship with cascade size. Network position predicts spread; emotional content does not. These bridge users also communicate with more emotional moderation across all dimensions.
 
-**Tech Stack:** BigQuery (recursive CTEs), Python (pandas, numpy, matplotlib, networkx, networkit), Looker Studio
+**Tech Stack:** BigQuery (recursive CTEs), Python (pandas, numpy, matplotlib, networkx, networkit, transformers), Looker Studio
 
-**Methods:** Network analysis (graph construction, centrality measures, betweenness), community detection (Louvain), sentiment analysis, cascade extraction, bridge user identification
+**Methods:** Network analysis (graph construction, centrality measures, betweenness), community detection (Louvain), emotion classification (ModernBERT, GoEmotions, PCA), cascade extraction, bridge user identification
 
-**Behavioral Analysis:** TBA
+**Behavioral Analysis:** Network position predicts cascade outcomes while emotional content does not, challenging content-focused virality frameworks. Spread depends less on emotional resonance and more on the structural position of the author. The emotional moderation of bridge users suggests these positions may select for or encourage measured communication styles.
 
 ---
 
